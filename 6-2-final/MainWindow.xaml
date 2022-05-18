@@ -1,0 +1,24 @@
+﻿<Window x:Class="tamrin_6_2_final.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:tamrin_6_2_final"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" Width="400"
+        Background="Gray">
+    <Border CornerRadius="20" Background="White" Margin="50,90,50,50">
+        <TabControl>
+            <TabItem Header="Seller" Margin="13,0,-50,0" BorderThickness="0" Background="Transparent">
+                <TextBlock>
+                    LOLOLOL
+                </TextBlock>
+            </TabItem>
+            <TabItem Header="Seller" Margin="50,0,-80,0" BorderThickness="0" Background="Transparent">
+                <TextBlock>
+                    LMAOLMALASLDASLDASF
+                </TextBlock>
+            </TabItem>
+        </TabControl>
+    </Border>
+</Window>
