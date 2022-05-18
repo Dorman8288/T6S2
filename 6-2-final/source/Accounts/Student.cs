@@ -8,7 +8,7 @@ namespace tamrin_6_2_final.source
     class Student : Account
     {
         string _studentNumber;
-        string studentNumber
+        public string studentNumber
         {
             get { return _studentNumber; }
             set

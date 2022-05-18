@@ -40,12 +40,26 @@ namespace tamrin_6_2_final.source.DataManagement
         public static void AddAccount(Account account)
         {
             accounts.Add(account);
-            Save("Accounts.json", account);
         }
         public static void AddMedia(MediaClasses.Media media)
         {
             medias.Add(media);
-            Save("Accounts.json", media);
+        }
+        public static bool isRegisteredID(string ID)
+        {
+            foreach(var media in medias)
+            {
+                if (ID == media.ID) return true;
+            }
+            return false;
+        }
+        public static bool isRegisteredSSN(string SSN)
+        {
+            foreach (var account in accounts)
+            {
+                if (account is Customer && (account as Customer).SSN == SSN) return true;
+            }
+            return false;
         }
     }
 }

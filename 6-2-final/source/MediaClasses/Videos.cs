@@ -19,5 +19,19 @@ namespace tamrin_6_2_final.source.MediaClasses
             double multiplier = 1 + ((numberOfCDs * 3) + ((time / 60) * 5)) / 100;
             return basePrice * multiplier;
         }
+        public override bool Equals(object obj)
+        {
+            Videos b = obj as Videos;
+            if (b == null) throw new Exception("this object is not the currect type");
+            return this == b && time == b.time && numberOfCDs == b.numberOfCDs;
+        }
+        public static bool operator ==(Videos a, Videos b)
+        {
+            return a.Equals(b);
+        }
+        public static bool operator !=(Videos a, Videos b)
+        {
+            return a != b;
+        }
     }
 }

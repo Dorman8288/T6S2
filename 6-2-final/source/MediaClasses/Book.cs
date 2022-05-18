@@ -17,5 +17,19 @@ namespace tamrin_6_2_final.source.MediaClasses
         {
             return 1.1 * base.calculatePrice();
         }
+        public override bool Equals(object obj)
+        {
+            Book b = obj as Book;
+            if (b == null) throw new Exception("this object is not the currect type");
+            return this == b && publisher == b.publisher && author == b.author;
+        }
+        public static bool operator ==(Book a, Book b)
+        {
+            return a.Equals(b);
+        }
+        public static bool operator !=(Book a, Book b)
+        {
+            return a != b;
+        }
     }
 }

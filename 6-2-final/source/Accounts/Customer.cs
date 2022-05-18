@@ -7,7 +7,7 @@ namespace tamrin_6_2_final.source
     class Customer : Account
     {
         string _SSN;
-        string SSN
+        public string SSN
         {
             get { return _SSN; }
             set
@@ -19,7 +19,6 @@ namespace tamrin_6_2_final.source
         public Customer(string name, string SSN) : base(name)
         {
             this.SSN = SSN;
-            
         }
     }
 }

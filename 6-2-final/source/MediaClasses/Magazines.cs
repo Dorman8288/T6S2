@@ -21,5 +21,19 @@ namespace tamrin_6_2_final.source.MediaClasses
             if (21 <= numberPages && numberPages <= 50) multiplier = 1.03;
             return basePrice * multiplier;
         }
+        public override bool Equals(object obj)
+        {
+            Magazines b = obj as Magazines;
+            if (b == null) throw new Exception("this object is not the currect type");
+            return this == b && publisher == b.publisher && numberPages == b.numberPages;
+        }
+        public static bool operator ==(Magazines a, Magazines b)
+        {
+            return a.Equals(b);
+        }
+        public static bool operator !=(Magazines a, Magazines b)
+        {
+            return a != b;
+        }
     }
 }
