@@ -39,3 +39,10 @@ C:\Users\mdorp\Downloads\6-2-final\6-2-final\obj\Debug\netcoreapp3.1\tamrin 6 2 
 C:\Users\mdorp\Downloads\6-2-final\6-2-final\obj\Debug\netcoreapp3.1\tamrin 6 2 final.csproj.CoreCompileInputs.cache
 C:\Users\mdorp\Downloads\6-2-final\6-2-final\obj\Debug\netcoreapp3.1\tamrin 6 2 final.genruntimeconfig.cache
 C:\Users\mdorp\Downloads\6-2-final\6-2-final\obj\Debug\netcoreapp3.1\App.baml
+C:\Users\User\Source\Repos\T6S2\6-2-final\obj\Debug\netcoreapp3.1\tamrin 6 2 final.csproj.AssemblyReference.cache
+C:\Users\User\Source\Repos\T6S2\6-2-final\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\User\Source\Repos\T6S2\6-2-final\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\User\Source\Repos\T6S2\6-2-final\obj\Debug\netcoreapp3.1\tamrin 6 2 final_MarkupCompile.cache
+C:\Users\User\Source\Repos\T6S2\6-2-final\obj\Debug\netcoreapp3.1\tamrin 6 2 final_MarkupCompile.lref
+C:\Users\User\Source\Repos\T6S2\6-2-final\obj\Debug\netcoreapp3.1\tamrin 6 2 final.dll
+C:\Users\User\Source\Repos\T6S2\6-2-final\obj\Debug\netcoreapp3.1\tamrin 6 2 final.pdb

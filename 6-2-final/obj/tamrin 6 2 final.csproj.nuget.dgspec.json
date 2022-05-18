@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mdorp\\Downloads\\6-2-final\\6-2-final\\tamrin 6 2 final.csproj": {}
+    "C:\\Users\\User\\Source\\Repos\\T6S2\\6-2-final\\tamrin 6 2 final.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mdorp\\Downloads\\6-2-final\\6-2-final\\tamrin 6 2 final.csproj": {
+    "C:\\Users\\User\\Source\\Repos\\T6S2\\6-2-final\\tamrin 6 2 final.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mdorp\\Downloads\\6-2-final\\6-2-final\\tamrin 6 2 final.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Source\\Repos\\T6S2\\6-2-final\\tamrin 6 2 final.csproj",
         "projectName": "tamrin 6 2 final",
-        "projectPath": "C:\\Users\\mdorp\\Downloads\\6-2-final\\6-2-final\\tamrin 6 2 final.csproj",
-        "packagesPath": "C:\\Users\\mdorp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mdorp\\Downloads\\6-2-final\\6-2-final\\obj\\",
+        "projectPath": "C:\\Users\\User\\Source\\Repos\\T6S2\\6-2-final\\tamrin 6 2 final.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\Source\\Repos\\T6S2\\6-2-final\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\mdorp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -57,7 +60,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
         }
       }
     }
