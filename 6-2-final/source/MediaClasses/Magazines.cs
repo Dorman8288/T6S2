@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace tamrin_6_2_final.source
+namespace tamrin_6_2_final
 {
     class Magazines : Media
     {

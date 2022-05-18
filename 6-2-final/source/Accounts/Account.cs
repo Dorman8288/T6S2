@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace tamrin_6_2_final.source
+namespace tamrin_6_2_final
 {
     class Account
     {
@@ -11,6 +11,11 @@ namespace tamrin_6_2_final.source
         public Account(string name)
         {
             this.name = name;
+            DataManager.AddAccount(this);
+        }
+        public Account()
+        {
+            name = "";
             DataManager.AddAccount(this);
         }
         public void AddToCart(Media item)

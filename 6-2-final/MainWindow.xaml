@@ -7,11 +7,5 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="600" Width="400"
         Background="Gray">
-    <Border CornerRadius="20" Background="White" Margin="50,90,50,50">
-        <WrapPanel>
-            <Button Click="Button_Click">test</Button>
-            <TextBlock Margin="10" Name="textblock"> state </TextBlock>
-        </WrapPanel>
-        
-    </Border>
+    <Frame Source="LoginPage.xaml"/>
 </Window>

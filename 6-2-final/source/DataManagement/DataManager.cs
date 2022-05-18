@@ -4,7 +4,7 @@ using System.Text;
 using System.IO;
 using System.Text.Json;
 
-namespace tamrin_6_2_final.source
+namespace tamrin_6_2_final
 {
     static class DataManager
     {
@@ -44,6 +44,35 @@ namespace tamrin_6_2_final.source
         public static void AddMedia(Media media)
         {
             medias.Add(media);
+        }
+        public static void LoadAll()
+        {
+            LoadAccounts();
+            LoadMedia();
+        }
+        public static void LoadAccounts()
+        {
+            if (!File.Exists("Accounts.json")) return;
+            StreamReader reader = new StreamReader("Accounts.json");
+            while (!reader.EndOfStream)
+            {
+                string json = reader.ReadLine();
+                Account account = JsonSerializer.Deserialize<Account>(json);
+                AddAccount(account);
+            }
+            reader.Close();
+        }
+        public static void LoadMedia()
+        {
+            if (!File.Exists("Media.json")) return;
+            StreamReader reader = new StreamReader("Media.json");
+            while (!reader.EndOfStream)
+            {
+                string json = reader.ReadLine();
+                Media media = JsonSerializer.Deserialize<Media>(json);
+                AddMedia(media);
+            }
+            reader.Close();
         }
         public static bool isRegisteredID(string ID)
         {

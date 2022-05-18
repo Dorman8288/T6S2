@@ -4,22 +4,33 @@
              xmlns:local="clr-namespace:tamrin_6_2_final"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-        <Style TargetType="TabItem" x:Key="tabItems">
+        <Style TargetType="TabControl" x:Key="tabControl">
             <Setter Property="Background" Value="Transparent"/>
             <Setter Property="BorderThickness" Value="0"/>
+        </Style>
+        <Style TargetType="TabItem" x:Key="tabItem">
             <Setter Property="Template">
                 <Setter.Value>
                     <ControlTemplate TargetType="TabItem">
-                        <Border BorderThickness="0">
-                            <WrapPanel>
-                                <ContentPresenter>
-                                    <TextBlock Text="{Binding Path=TabItem, ElementName=Header}" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
-                                </ContentPresenter>
-                            </WrapPanel>
+                        <Border CornerRadius="10" BorderThickness="0" Background="LightGray">
+                            <ContentPresenter/>
                         </Border>
                     </ControlTemplate>
                 </Setter.Value>
             </Setter>
+            <Style.Triggers>
+                <Trigger Property="IsSelected" Value="True">
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="TabItem">
+                                <Border CornerRadius="10" BorderThickness="0" Background="Transparent">
+                                    <ContentPresenter/>
+                                </Border>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Trigger>
+            </Style.Triggers>
         </Style>
     </Application.Resources>
 </Application>

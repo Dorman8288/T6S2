@@ -2,8 +2,8 @@
 using System.Collections.Generic;
 using System.Text;
 using System.Text.RegularExpressions;
-using System.Windows;
-namespace tamrin_6_2_final.source
+
+namespace tamrin_6_2_final
 {
     class Student : Account
     {

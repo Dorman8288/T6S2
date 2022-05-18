@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace tamrin_6_2_final.source
+namespace tamrin_6_2_final
 {
     class Media
     {
@@ -32,6 +32,13 @@ namespace tamrin_6_2_final.source
             this.name = name;
             this.price = price;
             this.ID = ID;
+            DataManager.AddMedia(this);
+        }
+        public Media()
+        {
+            name = "";
+            price = 0;
+            ID = "null";
             DataManager.AddMedia(this);
         }
         public virtual double calculatePrice()

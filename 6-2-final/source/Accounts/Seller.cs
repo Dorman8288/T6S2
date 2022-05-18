@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Text.RegularExpressions;
 
-namespace tamrin_6_2_final.source
+namespace tamrin_6_2_final
 {
     class Seller : Account
     {
