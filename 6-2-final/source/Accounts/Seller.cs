@@ -7,8 +7,7 @@ namespace tamrin_6_2_final.source
 {
     class Seller : Account
     {
-        string _password;
-        public string password;
+        public string password { get; set; }
         public Seller(string name, string password = "MyShop1234$") : base(name)
         {
             if (!isInEmailFormat(name)) throw new Exception("this username is not an email");

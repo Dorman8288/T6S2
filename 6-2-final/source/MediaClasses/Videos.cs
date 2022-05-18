@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace tamrin_6_2_final.source.MediaClasses
+namespace tamrin_6_2_final.source
 {
     class Videos : Media
     {

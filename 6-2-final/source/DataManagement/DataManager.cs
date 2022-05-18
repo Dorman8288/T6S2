@@ -4,11 +4,11 @@ using System.Text;
 using System.IO;
 using System.Text.Json;
 
-namespace tamrin_6_2_final.source.DataManagement
+namespace tamrin_6_2_final.source
 {
     static class DataManager
     {
-        static List<MediaClasses.Media> medias = new List<MediaClasses.Media>();
+        static List<Media> medias = new List<Media>();
         static List<Account> accounts = new List<Account>();
         public static void SaveAll()
         {
@@ -41,7 +41,7 @@ namespace tamrin_6_2_final.source.DataManagement
         {
             accounts.Add(account);
         }
-        public static void AddMedia(MediaClasses.Media media)
+        public static void AddMedia(Media media)
         {
             medias.Add(media);
         }

@@ -1,5 +1,5 @@
 ﻿tamrin 6 2 final
-1.0.0.0
+
 
 winexe
 C#
@@ -12,9 +12,9 @@ TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1;
 C:\Users\User\Source\Repos\T6S2\6-2-final\App.xaml
 11407045341
 
-161633268979
+14952246955
 192-1533232326
 MainWindow.xaml;
 
-True
+False
 

@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Text.Json;
 
 namespace tamrin_6_2_final
 {
@@ -23,6 +24,16 @@ namespace tamrin_6_2_final
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            source.Student test1 = new source.Student("am@gmail.com", "99999999");
+            MessageBox.Show("yes");
+            textblock.Text = JsonSerializer.Serialize(test1);
+            source.Seller test2 = new source.Seller("ali@gmail.com");
+            source.DataManager.SaveAll();
+            
         }
     }
 }

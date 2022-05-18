@@ -6,17 +6,18 @@ namespace tamrin_6_2_final.source
 {
     class Account
     {
-        public string name;
-        public List<MediaClasses.Media> cart = new List<MediaClasses.Media>();
+        public string name { get; set; }
+        public List<Media> cart { get; set; } = new List<Media>();
         public Account(string name)
         {
             this.name = name;
+            DataManager.AddAccount(this);
         }
-        public void AddToCart(MediaClasses.Media item)
+        public void AddToCart(Media item)
         {
             cart.Add(item);
         }
-        public void removeFromCart(MediaClasses.Media item)
+        public void removeFromCart(Media item)
         {
             foreach(var media in cart)
             {

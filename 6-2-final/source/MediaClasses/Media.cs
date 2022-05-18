@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace tamrin_6_2_final.source.MediaClasses
+namespace tamrin_6_2_final.source
 {
     class Media
     {
@@ -23,7 +23,7 @@ namespace tamrin_6_2_final.source.MediaClasses
             get { return _ID; }
             set 
             {
-                if (DataManagement.DataManager.isRegisteredID(value)) throw new Exception("this ID is registered");
+                if (DataManager.isRegisteredID(value)) throw new Exception("this ID is registered");
                 _ID = value;
             }
         }
@@ -32,8 +32,7 @@ namespace tamrin_6_2_final.source.MediaClasses
             this.name = name;
             this.price = price;
             this.ID = ID;
-            if (DataManagement.DataManager.isRegisteredID(ID)) throw new Exception("this ID is registered");
-            DataManagement.DataManager.AddMedia(this);
+            DataManager.AddMedia(this);
         }
         public virtual double calculatePrice()
         {

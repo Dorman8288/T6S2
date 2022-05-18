@@ -59,7 +59,7 @@ namespace tamrin_6_2_final {
             
             #line default
             #line hidden
-            System.Uri resourceLocater = new System.Uri("/tamrin 6 2 final;V1.0.0.0;component/app.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/tamrin 6 2 final;component/app.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\App.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

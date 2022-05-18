@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 using System.Text.RegularExpressions;
-
+using System.Windows;
 namespace tamrin_6_2_final.source
 {
     class Student : Account
@@ -13,7 +13,7 @@ namespace tamrin_6_2_final.source
             get { return _studentNumber; }
             set
             {
-                if (!isInStudentNumberFormat(studentNumber)) throw new Exception("student number format is not correct!");
+                if (!isInStudentNumberFormat(value)) throw new Exception("student number format is not correct!");
                 _studentNumber = value;
             }
         }

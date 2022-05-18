@@ -12,7 +12,8 @@ namespace tamrin_6_2_final.source
             get { return _SSN; }
             set
             {
-                if (!value.isSSN()) throw new Exception("SSN format is not correct!");
+                if (!value.isSSN() ) throw new Exception("SSN format is not correct!");
+                if (DataManager.isRegisteredSSN(value)) throw new Exception("SSN is registered!");
                 _SSN = value;
             }
         }
