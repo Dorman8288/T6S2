@@ -37,14 +37,14 @@
                 </Trigger>
             </Style.Triggers>
         </Style>
-        <Style TargetType="Button" x:Key="YellowButton">
+        <Style TargetType="Button" x:Key="NormalButton">
             <Setter Property="OverridesDefaultStyle" Value="true"/>
             <Setter Property="Background" Value="LightSlateGray"/>
             <Setter Property="FontSize" Value="35"/>
             <Setter Property="FontFamily" Value="/Fonts/#OpenSans-Bold.ttf"/>
             <Setter Property="Effect">
                 <Setter.Value>
-                    <DropShadowEffect BlurRadius="10" ShadowDepth="5"/>
+                    <DropShadowEffect BlurRadius="10" ShadowDepth="5" Direction="270" Opacity="0.8"/>
                 </Setter.Value>
             </Setter>
             <Setter Property="Template">
@@ -65,7 +65,7 @@
                 <Trigger Property="IsPressed" Value="True">
                     <Setter Property="Effect">
                         <Setter.Value>
-                            <DropShadowEffect BlurRadius="10" ShadowDepth="3"/>
+                            <DropShadowEffect BlurRadius="10" ShadowDepth="3" Direction="270" Opacity="0.8"/>
                         </Setter.Value>
                     </Setter>
                 </Trigger>

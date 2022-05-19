@@ -21,3 +21,5 @@ C:\Users\User\Source\Repos\T6S2\6-2-final\obj\Debug\netcoreapp3.1\tamrin 6 2 fin
 C:\Users\User\Source\Repos\T6S2\6-2-final\obj\Debug\netcoreapp3.1\tamrin 6 2 final.pdb
 C:\Users\User\Source\Repos\T6S2\6-2-final\obj\Debug\netcoreapp3.1\tamrin 6 2 final.genruntimeconfig.cache
 C:\Users\User\Source\Repos\T6S2\6-2-final\obj\Debug\netcoreapp3.1\tamrin 6 2 final.csproj.AssemblyReference.cache
+C:\Users\User\Source\Repos\T6S2\6-2-final\obj\Debug\netcoreapp3.1\SellerPage.g.cs
+C:\Users\User\Source\Repos\T6S2\6-2-final\obj\Debug\netcoreapp3.1\SellerPage.baml

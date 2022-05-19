@@ -14,18 +14,13 @@ using System.Windows.Shapes;
 namespace tamrin_6_2_final
 {
     /// <summary>
-    /// Interaction logic for LoginPage.xaml
+    /// Interaction logic for Seller.xaml
     /// </summary>
-    public partial class LoginPage : Page
+    public partial class SellerPage : Page
     {
-        public LoginPage()
+        public SellerPage()
         {
-            InitializeComponent();
-        }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            NavigationService.Navigate(new Uri("SellerPage.xaml", UriKind.Relative));
+            //InitializeComponent();
         }
     }
 }

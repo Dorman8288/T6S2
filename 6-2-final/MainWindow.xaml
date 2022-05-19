@@ -8,5 +8,5 @@
         Title="MainWindow" Height="600" Width="410"
         Background="Gray"
         ResizeMode="NoResize">
-    <Frame Source="LoginPage.xaml"/>
+    <Frame Source="LoginPage.xaml" NavigationUIVisibility="Hidden"/>
 </Window>
