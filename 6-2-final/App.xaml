@@ -10,21 +10,26 @@
         </Style>
         <Style TargetType="TabItem" x:Key="tabItem">
             <Setter Property="Template">
-                <Setter.Value>
-                    <ControlTemplate TargetType="TabItem">
-                        <Border CornerRadius="10" BorderThickness="0" Background="LightGray">
-                            <ContentPresenter/>
-                        </Border>
-                    </ControlTemplate>
-                </Setter.Value>
-            </Setter>
+                    <Setter.Value>
+                        <ControlTemplate TargetType="TabItem">
+                            <Border CornerRadius="5" BorderThickness="0" BorderBrush="Black" Background="LightGray">
+                                <ContentPresenter  Content="{TemplateBinding Header}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                            </Border>
+                            <ControlTemplate.Triggers>
+                                <Trigger Property="IsSelected" Value="True">
+                                    <Setter Property="Background" Value="Transparent"/>
+                                </Trigger>
+                            </ControlTemplate.Triggers>
+                        </ControlTemplate>
+                    </Setter.Value>
+                </Setter>
             <Style.Triggers>
                 <Trigger Property="IsSelected" Value="True">
-                    <Setter Property="Template">
+                    <Setter Property="Template" >
                         <Setter.Value>
                             <ControlTemplate TargetType="TabItem">
-                                <Border CornerRadius="10" BorderThickness="0" Background="Transparent">
-                                    <ContentPresenter/>
+                                <Border CornerRadius="5" BorderThickness="0" BorderBrush="Black" Background="Transparent">
+                                    <ContentPresenter  Content="{TemplateBinding Header}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
                                 </Border>
                             </ControlTemplate>
                         </Setter.Value>
@@ -32,5 +37,13 @@
                 </Trigger>
             </Style.Triggers>
         </Style>
+        <LinearGradientBrush x:Key="BackGroundBrush" StartPoint="0,0" EndPoint="1,1">
+            <GradientStop Color="DimGray" Offset="0"/>
+            <GradientStop Color="DarkGray" Offset="0.2"/>
+            <GradientStop Color="Gray" Offset="0.4"/>
+            <GradientStop Color="LightGray" Offset="0.6"/>
+            <GradientStop Color="SlateGray" Offset="0.8"/>
+            <GradientStop Color="LightSlateGray" Offset="1"/>
+        </LinearGradientBrush>
     </Application.Resources>
 </Application>

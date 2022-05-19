@@ -5,7 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:tamrin_6_2_final"
         mc:Ignorable="d"
-        Title="MainWindow" Height="600" Width="400"
-        Background="Gray">
+        Title="MainWindow" Height="600" Width="410"
+        Background="Gray"
+        ResizeMode="NoResize">
     <Frame Source="LoginPage.xaml"/>
 </Window>
