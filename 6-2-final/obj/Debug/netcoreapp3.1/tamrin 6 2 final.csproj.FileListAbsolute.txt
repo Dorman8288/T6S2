@@ -4,12 +4,13 @@ C:\Users\User\Source\Repos\T6S2\6-2-final\bin\Debug\netcoreapp3.1\tamrin 6 2 fin
 C:\Users\User\Source\Repos\T6S2\6-2-final\bin\Debug\netcoreapp3.1\tamrin 6 2 final.runtimeconfig.dev.json
 C:\Users\User\Source\Repos\T6S2\6-2-final\bin\Debug\netcoreapp3.1\tamrin 6 2 final.dll
 C:\Users\User\Source\Repos\T6S2\6-2-final\bin\Debug\netcoreapp3.1\tamrin 6 2 final.pdb
-C:\Users\User\Source\Repos\T6S2\6-2-final\obj\Debug\netcoreapp3.1\tamrin 6 2 final.csproj.AssemblyReference.cache
+C:\Users\User\Source\Repos\T6S2\6-2-final\obj\Debug\netcoreapp3.1\LoginPage.g.cs
 C:\Users\User\Source\Repos\T6S2\6-2-final\obj\Debug\netcoreapp3.1\MainWindow.g.cs
 C:\Users\User\Source\Repos\T6S2\6-2-final\obj\Debug\netcoreapp3.1\App.g.cs
 C:\Users\User\Source\Repos\T6S2\6-2-final\obj\Debug\netcoreapp3.1\tamrin 6 2 final_MarkupCompile.cache
 C:\Users\User\Source\Repos\T6S2\6-2-final\obj\Debug\netcoreapp3.1\tamrin 6 2 final_MarkupCompile.lref
 C:\Users\User\Source\Repos\T6S2\6-2-final\obj\Debug\netcoreapp3.1\App.baml
+C:\Users\User\Source\Repos\T6S2\6-2-final\obj\Debug\netcoreapp3.1\LoginPage.baml
 C:\Users\User\Source\Repos\T6S2\6-2-final\obj\Debug\netcoreapp3.1\MainWindow.baml
 C:\Users\User\Source\Repos\T6S2\6-2-final\obj\Debug\netcoreapp3.1\tamrin 6 2 final.g.resources
 C:\Users\User\Source\Repos\T6S2\6-2-final\obj\Debug\netcoreapp3.1\tamrin 6 2 final.GeneratedMSBuildEditorConfig.editorconfig
@@ -19,5 +20,4 @@ C:\Users\User\Source\Repos\T6S2\6-2-final\obj\Debug\netcoreapp3.1\tamrin 6 2 fin
 C:\Users\User\Source\Repos\T6S2\6-2-final\obj\Debug\netcoreapp3.1\tamrin 6 2 final.dll
 C:\Users\User\Source\Repos\T6S2\6-2-final\obj\Debug\netcoreapp3.1\tamrin 6 2 final.pdb
 C:\Users\User\Source\Repos\T6S2\6-2-final\obj\Debug\netcoreapp3.1\tamrin 6 2 final.genruntimeconfig.cache
-C:\Users\User\Source\Repos\T6S2\6-2-final\obj\Debug\netcoreapp3.1\LoginPage.g.cs
-C:\Users\User\Source\Repos\T6S2\6-2-final\obj\Debug\netcoreapp3.1\LoginPage.baml
+C:\Users\User\Source\Repos\T6S2\6-2-final\obj\Debug\netcoreapp3.1\tamrin 6 2 final.csproj.AssemblyReference.cache
