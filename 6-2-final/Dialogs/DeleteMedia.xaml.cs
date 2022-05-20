@@ -8,25 +8,18 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace tamrin_6_2_final
+namespace tamrin_6_2_final.Dialogs
 {
     /// <summary>
-    /// Interaction logic for Seller.xaml
+    /// Interaction logic for DeleteMedia.xaml
     /// </summary>
-    public partial class SellerPage : Page
+    public partial class DeleteMedia : Window
     {
-        public SellerPage()
+        public DeleteMedia()
         {
             InitializeComponent();
-        }
-
-        private void AddButtonClick(object sender, RoutedEventArgs e)
-        {
-            Dialogs.AddMedia inputDialog = new Dialogs.AddMedia();
-            inputDialog.Show();
         }
     }
 }

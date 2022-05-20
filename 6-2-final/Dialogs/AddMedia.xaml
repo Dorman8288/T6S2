@@ -1,0 +1,102 @@
+﻿<Window x:Class="tamrin_6_2_final.Dialogs.AddMedia"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:tamrin_6_2_final.Dialogs"
+        mc:Ignorable="d"
+        Title="AddMedia" Height="200" Width="300"
+        Background="Gray">
+    <TabControl>
+        <TabItem Header="Book">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="3*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Label Grid.Row="0" Grid.Column="0" Content="Name" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                <TextBox Name="BooknameTB" Grid.Row="0" Grid.Column="1" Width="200" Height="15" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                <Label Grid.Row="1" Grid.Column="0" Content="Price" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                <TextBox Name="BookPriceTB" Grid.Row="1" Grid.Column="1" Width="200" Height="15" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                <Label Grid.Row="2" Grid.Column="0" Content="ID" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                <TextBox x:Name="BookIDTB" Grid.Row="2" Grid.Column="1" Width="200" Height="15" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                <Label  Grid.Row="3" Grid.Column="0" Content="Author" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                <TextBox Name="BookAuthorTB" Grid.Row="3" Grid.Column="1" Width="200" Height="15" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                <Label Grid.Row="4" Grid.Column="0" Content="Publisher" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                <TextBox Name="BookPublisherTB" Grid.Row="4" Grid.Column="1" Width="200" Height="15" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                <WrapPanel Grid.Row="5" Grid.Column="2" HorizontalAlignment="Right">
+                    <Button IsDefault="True" Margin="0,0,10,0" Width="60" Height="20" Content="Add" Click="AddBook"/>
+                    <Button IsCancel="True" Width="60" Height="20" Content="Cancel" Margin="0,0,10,0" Click="CancelClick"/>
+                </WrapPanel>
+            </Grid>
+        </TabItem>
+        <TabItem Header="Video">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="3*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Label Grid.Row="0" Grid.Column="0" Content="Name" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                <TextBox Name="VideonameTB" Grid.Row="0" Grid.Column="1" Width="200" Height="15" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                <Label Grid.Row="1" Grid.Column="0" Content="Price" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                <TextBox Name="VideoPriceTB" Grid.Row="1" Grid.Column="1" Width="200" Height="15" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                <Label Grid.Row="2" Grid.Column="0" Content="ID" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                <TextBox x:Name="VideoIDTB" Grid.Row="2" Grid.Column="1" Width="200" Height="15" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                <Label Grid.Row="3" Grid.Column="0" Content="Time" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                <TextBox Name="VideoTime" Grid.Row="3" Grid.Column="1" Width="200" Height="15" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                <Label Grid.Row="4" Grid.Column="0" Content="Number Of Cds" FontSize="9" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                <TextBox Name="VideoNumberOfCd" Grid.Row="4" Grid.Column="1" Width="200" Height="15" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                <WrapPanel Grid.Row="5" Grid.Column="2" HorizontalAlignment="Right">
+                    <Button IsDefault="True" Margin="0,0,10,0" Width="60" Height="20" Content="Add" Click="AddVideo"/>
+                    <Button IsCancel="True" Width="60" Height="20" Content="Cancel" Margin="0,0,10,0" Click="CancelClick"/>
+                </WrapPanel>
+            </Grid>
+        </TabItem>
+        <TabItem Header="Magazines">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="3*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Label Grid.Row="0" Grid.Column="0" Content="Name" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                <TextBox Name="MagazinenameTB" Grid.Row="0" Grid.Column="1" Width="200" Height="15" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                <Label Grid.Row="1" Grid.Column="0" Content="Price" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                <TextBox Name="MagazinePriceTB" Grid.Row="1" Grid.Column="1" Width="200" Height="15" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                <Label Grid.Row="2" Grid.Column="0" Content="ID" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                <TextBox x:Name="MagazineIDTB" Grid.Row="2" Grid.Column="1" Width="200" Height="15" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                <Label Grid.Row="3" Grid.Column="0" Content="Number Of Pages" FontSize="8" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                <TextBox Name="MagazineNumberOfPages" Grid.Row="3" Grid.Column="1" Width="200" Height="15" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                <Label Grid.Row="4" Grid.Column="0" Content="Publisher" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                <TextBox Name="MagazinePublisher" Grid.Row="4" Grid.Column="1" Width="200" Height="15" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                <WrapPanel Grid.Row="5" Grid.Column="2" HorizontalAlignment="Right">
+                    <Button IsDefault="True" Margin="0,0,10,0" Width="60" Height="20" Content="Add" Click="AddMagazine"/>
+                    <Button IsCancel="True" Width="60" Height="20" Content="Cancel" Margin="0,0,10,0" Click="CancelClick"/>
+                </WrapPanel>
+            </Grid>
+        </TabItem>
+    </TabControl>
+</Window>

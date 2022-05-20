@@ -10,6 +10,7 @@ namespace tamrin_6_2_final
         int numberPages;
         public Magazines(string name, double price, string ID, int numberPages, string publisher) : base(name, price, ID)
         {
+            if (numberPages < 0) throw new Exception("number of pages cant be negetive");
             this.numberPages = numberPages;
             this.publisher = publisher;
         }

@@ -10,6 +10,8 @@ namespace tamrin_6_2_final
         int numberOfCDs;
         public Videos(string name, double price, string ID, int time, int numberOfCDs) : base(name, price, ID)
         {
+            if (time < 0) throw new Exception("time cant be negetive");
+            if (numberOfCDs < 0) throw new Exception("number of cds cant be negetive");
             this.time = time;
             this.numberOfCDs = numberOfCDs;
         }
