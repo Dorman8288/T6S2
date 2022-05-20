@@ -25,7 +25,7 @@ namespace tamrin_6_2_final
         {
             Videos b = obj as Videos;
             if (b == null) throw new Exception("this object is not the currect type");
-            return this == b && time == b.time && numberOfCDs == b.numberOfCDs;
+            return name == b.name && price == b.price && ID == b.ID && time == b.time && numberOfCDs == b.numberOfCDs;
         }
         public static bool operator ==(Videos a, Videos b)
         {

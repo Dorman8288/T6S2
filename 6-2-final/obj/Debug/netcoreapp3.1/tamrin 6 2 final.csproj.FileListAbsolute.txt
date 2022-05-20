@@ -25,3 +25,5 @@ C:\Users\User\Source\Repos\T6S2\6-2-final\obj\Debug\netcoreapp3.1\SellerPage.g.c
 C:\Users\User\Source\Repos\T6S2\6-2-final\obj\Debug\netcoreapp3.1\SellerPage.baml
 C:\Users\User\Source\Repos\T6S2\6-2-final\obj\Debug\netcoreapp3.1\Dialogs\AddMedia.g.cs
 C:\Users\User\Source\Repos\T6S2\6-2-final\obj\Debug\netcoreapp3.1\Dialogs\AddMedia.baml
+C:\Users\User\Source\Repos\T6S2\6-2-final\obj\Debug\netcoreapp3.1\Dialogs\DeleteMedia.g.cs
+C:\Users\User\Source\Repos\T6S2\6-2-final\obj\Debug\netcoreapp3.1\Dialogs\DeleteMedia.baml

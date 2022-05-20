@@ -28,5 +28,11 @@ namespace tamrin_6_2_final
             Dialogs.AddMedia inputDialog = new Dialogs.AddMedia();
             inputDialog.Show();
         }
+
+        private void DeleteButtonClick(object sender, RoutedEventArgs e)
+        {
+            Dialogs.DeleteMedia inputDialog = new Dialogs.DeleteMedia();
+            inputDialog.Show();
+        }
     }
 }

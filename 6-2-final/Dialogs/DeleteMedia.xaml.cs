@@ -21,5 +21,21 @@ namespace tamrin_6_2_final.Dialogs
         {
             InitializeComponent();
         }
+        private void CancelClick(object sender, RoutedEventArgs e)
+        {
+            Close();
+        }
+        private void DeleteMediaClick(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                DataManager.DeleteMedia(IDTB.Text);
+                MessageBox.Show("Successfull", "state", MessageBoxButton.OK, MessageBoxImage.Information);
+            }
+            catch (Exception error)
+            {
+                MessageBox.Show(error.Message, "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
+        }
     }
 }

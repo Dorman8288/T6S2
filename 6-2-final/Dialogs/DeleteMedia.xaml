@@ -5,8 +5,22 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:tamrin_6_2_final.Dialogs"
         mc:Ignorable="d"
-        Title="DeleteMedia" Height="200" Width="300">
+        Title="DeleteMedia" Height="100" Width="300">
     <Grid>
-        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="3*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+
+        </Grid.RowDefinitions>
+        <Label Grid.Row="0" Grid.Column="0" Content="ID" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <TextBox Name="IDTB" Grid.Row="0" Grid.Column="1" Width="200" Height="15" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <WrapPanel Grid.Row="5" Grid.Column="2" HorizontalAlignment="Right">
+            <Button IsDefault="True" Margin="0,0,10,0" Width="60" Height="20" Content="Delete" Click="DeleteMediaClick"/>
+            <Button IsCancel="True" Width="60" Height="20" Content="Cancel" Margin="0,0,10,0" Click="CancelClick"/>
+        </WrapPanel>
     </Grid>
 </Window>

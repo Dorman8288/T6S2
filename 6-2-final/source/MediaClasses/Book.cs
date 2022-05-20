@@ -20,11 +20,12 @@ namespace tamrin_6_2_final
         public override bool Equals(object obj)
         {
             Book b = obj as Book;
-            if (b == null) throw new Exception("this object is not the currect type");
-            return this == b && publisher == b.publisher && author == b.author;
+            if (b is null) throw new Exception("this object is not the currect type");
+            return name == b.name && price == b.price && ID == b.ID && publisher == b.publisher && author == b.author;
         }
         public static bool operator ==(Book a, Book b)
         {
+            if ((object)b == null && (object)a == null) return true;
             return a.Equals(b);
         }
         public static bool operator !=(Book a, Book b)

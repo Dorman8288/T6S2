@@ -74,6 +74,18 @@ namespace tamrin_6_2_final
             }
             reader.Close();
         }
+        public static void DeleteMedia(string ID)
+        {
+            if (!isRegisteredID(ID)) throw new Exception("this id is not registered");
+            for(int i = 0; i < medias.Count; i++)
+            {
+                if(medias[i].ID == ID)
+                {
+                    medias.Remove(medias[i]);
+                    i--;
+                }
+            }
+        }
         public static bool isRegisteredID(string ID)
         {
             foreach(var media in medias)

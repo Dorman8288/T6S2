@@ -26,7 +26,7 @@ namespace tamrin_6_2_final
         {
             Magazines b = obj as Magazines;
             if (b == null) throw new Exception("this object is not the currect type");
-            return this == b && publisher == b.publisher && numberPages == b.numberPages;
+            return name == b.name && price == b.price && ID == b.ID && publisher == b.publisher && numberPages == b.numberPages;
         }
         public static bool operator ==(Magazines a, Magazines b)
         {

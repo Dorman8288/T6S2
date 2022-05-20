@@ -49,7 +49,7 @@ namespace tamrin_6_2_final
         {
             Media b = obj as Media;
             if (b == null) throw new Exception("this object is not the currect type");
-            return name == b.name && price == b.price && ID == b.ID;
+            return  name == b.name && price == b.price && ID == b.ID;
         }
         public static bool operator ==(Media a, Media b)
         {
