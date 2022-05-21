@@ -125,8 +125,9 @@ namespace tamrin_6_2_final
                         {
                             return findaccount(new Seller(name, password));
                         }
-                        catch
+                        catch(Exception e)
                         {
+                            MessageBox.Show(e.Message);
                             Seller newSeller = new Seller(name, password);
                             AddAccount(newSeller);
                         }
@@ -181,6 +182,7 @@ namespace tamrin_6_2_final
             {
                 if(Account == input)
                 {
+                    MessageBox.Show(accounts.Count.ToString());
                     return Account;
                 }
             }

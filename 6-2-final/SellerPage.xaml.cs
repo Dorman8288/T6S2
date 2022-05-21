@@ -40,5 +40,11 @@ namespace tamrin_6_2_final
             Dialogs.SearchMedia inputDialog = new Dialogs.SearchMedia();
             inputDialog.Show();
         }
+
+        private void ExitButtonClick(object sender, RoutedEventArgs e)
+        {
+            MainWindow.setCurrentUser(null);
+            NavigationService.Navigate(new Uri("LoginPage.xaml", UriKind.Relative));
+        }
     }
 }

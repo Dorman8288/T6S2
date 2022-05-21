@@ -32,7 +32,7 @@ namespace tamrin_6_2_final
                 NavigationService.Navigate(new Uri("SellerPage.xaml", UriKind.Relative));
             }catch(Exception error)
             {
-                MessageBox.Show(error.Message);
+                MessageBox.Show(error.Message, "Error", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
 
@@ -45,7 +45,7 @@ namespace tamrin_6_2_final
             }
             catch (Exception error)
             {
-                MessageBox.Show(error.Message);
+                MessageBox.Show(error.Message, "Error", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
 
@@ -58,7 +58,7 @@ namespace tamrin_6_2_final
             }
             catch (Exception error)
             {
-                MessageBox.Show(error.Message);
+                MessageBox.Show(error.Message, "Error", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
 
@@ -71,7 +71,7 @@ namespace tamrin_6_2_final
             }
             catch (Exception error)
             {
-                MessageBox.Show(error.Message);
+                MessageBox.Show(error.Message, "Error", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
     }
