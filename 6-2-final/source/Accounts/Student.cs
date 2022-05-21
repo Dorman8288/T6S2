@@ -5,7 +5,7 @@ using System.Text.RegularExpressions;
 
 namespace tamrin_6_2_final
 {
-    class Student : Account
+    public class Student : Account
     {
         string _studentNumber;
         public string studentNumber
@@ -24,6 +24,14 @@ namespace tamrin_6_2_final
         bool isInStudentNumberFormat(string input)
         {
             return Regex.IsMatch(input, @"^9.{7}$");
+        }
+        public static bool operator ==(Student a, Student b)
+        {
+            return a.name == b.name && a.studentNumber == b.studentNumber;
+        }
+        public static bool operator !=(Student a, Student b)
+        {
+            return a != b;
         }
     }
 }

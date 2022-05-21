@@ -4,7 +4,7 @@ using System.Text;
 
 namespace tamrin_6_2_final
 {
-    class Videos : Media
+    public class Videos : Media
     {
         int time;
         int numberOfCDs;
@@ -26,6 +26,10 @@ namespace tamrin_6_2_final
             Videos b = obj as Videos;
             if (b == null) throw new Exception("this object is not the currect type");
             return name == b.name && price == b.price && ID == b.ID && time == b.time && numberOfCDs == b.numberOfCDs;
+        }
+        public override string info()
+        {
+            return base.info() + $"Author: {time}\nPublisher: {numberOfCDs}\n";
         }
         public static bool operator ==(Videos a, Videos b)
         {

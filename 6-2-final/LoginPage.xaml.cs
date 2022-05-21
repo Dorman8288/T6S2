@@ -21,11 +21,58 @@ namespace tamrin_6_2_final
         public LoginPage()
         {
             InitializeComponent();
+            SellerPassTB.Text = "MyShop1234$";
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void SellerLoginClick(object sender, RoutedEventArgs e)
         {
-            NavigationService.Navigate(new Uri("SellerPage.xaml", UriKind.Relative));
+            try
+            {
+                MainWindow.setCurrentUser(DataManager.login(SellerNameTB.Text, SellerPassTB.Text, LoginType.Seller));
+                NavigationService.Navigate(new Uri("SellerPage.xaml", UriKind.Relative));
+            }catch(Exception error)
+            {
+                MessageBox.Show(error.Message);
+            }
+        }
+
+        private void CustomerLoginClick(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                MainWindow.setCurrentUser(DataManager.login(SellerNameTB.Text, SellerPassTB.Text, LoginType.Customer));
+                NavigationService.Navigate(new Uri("SellerPage.xaml", UriKind.Relative));
+            }
+            catch (Exception error)
+            {
+                MessageBox.Show(error.Message);
+            }
+        }
+
+        private void TeacherLoginClick(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                MainWindow.setCurrentUser(DataManager.login(SellerNameTB.Text, SellerPassTB.Text, LoginType.Teacher));
+                NavigationService.Navigate(new Uri("SellerPage.xaml", UriKind.Relative));
+            }
+            catch (Exception error)
+            {
+                MessageBox.Show(error.Message);
+            }
+        }
+
+        private void StudentLoginClick(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                MainWindow.setCurrentUser(DataManager.login(SellerNameTB.Text, SellerPassTB.Text, LoginType.Student));
+                NavigationService.Navigate(new Uri("SellerPage.xaml", UriKind.Relative));
+            }
+            catch (Exception error)
+            {
+                MessageBox.Show(error.Message);
+            }
         }
     }
 }

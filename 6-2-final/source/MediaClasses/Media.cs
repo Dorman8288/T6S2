@@ -4,7 +4,7 @@ using System.Text;
 
 namespace tamrin_6_2_final
 {
-    class Media
+    public class Media
     {
         public string name;
         double _price;
@@ -40,6 +40,10 @@ namespace tamrin_6_2_final
             price = 0;
             ID = "null";
             DataManager.AddMedia(this);
+        }
+        public virtual string info()
+        {
+            return $"Name: {name}\nPrice: {price}\nID: {ID}\n";
         }
         public virtual double calculatePrice()
         {

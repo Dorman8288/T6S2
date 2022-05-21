@@ -20,9 +20,9 @@ namespace tamrin_6_2_final
     {
         public SellerPage()
         {
+
             InitializeComponent();
         }
-
         private void AddButtonClick(object sender, RoutedEventArgs e)
         {
             Dialogs.AddMedia inputDialog = new Dialogs.AddMedia();
@@ -32,6 +32,12 @@ namespace tamrin_6_2_final
         private void DeleteButtonClick(object sender, RoutedEventArgs e)
         {
             Dialogs.DeleteMedia inputDialog = new Dialogs.DeleteMedia();
+            inputDialog.Show();
+        }
+
+        private void SearchButtonClick(object sender, RoutedEventArgs e)
+        {
+            Dialogs.SearchMedia inputDialog = new Dialogs.SearchMedia();
             inputDialog.Show();
         }
     }

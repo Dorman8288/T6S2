@@ -21,9 +21,14 @@ namespace tamrin_6_2_final
     /// </summary>
     public partial class MainWindow : Window
     {
+        static Account currentUser = null;
+        public static void setCurrentUser(Account user)
+        {
+            currentUser = user;
+        }
         public MainWindow()
         {
-            //InitializeComponent();
+            InitializeComponent();
         }
     }
 }

@@ -27,14 +27,14 @@
                     </WrapPanel>
                     <WrapPanel Grid.Row="1" Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <TextBlock Style="{StaticResource NormalTextStyle}" FontSize="12"  Text="Email" HorizontalAlignment="Center" />
-                        <TextBox Width="250"></TextBox>
+                        <TextBox Name="SellerNameTB" Width="250"></TextBox>
                     </WrapPanel>
                     <WrapPanel Grid.Row="2" Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <TextBlock Style="{StaticResource NormalTextStyle}" FontSize="12"  Text="Password" HorizontalAlignment="Center" />
-                        <TextBox Width="250"></TextBox>
+                        <TextBox Name="SellerPassTB" Width="250"></TextBox>
                     </WrapPanel>
                     <WrapPanel Grid.Row="3" HorizontalAlignment="Center" VerticalAlignment="Center">
-                        <Button Style="{StaticResource NormalButton}" Height="60" Width="145" Click="Button_Click">
+                        <Button Style="{StaticResource NormalButton}" Height="60" Width="145" Click="SellerLoginClick">
                             <TextBlock Style="{StaticResource NormalTextStyle}" Text="Login" Foreground="Black"/>
                         </Button>
                     </WrapPanel>
@@ -56,14 +56,14 @@
                     </WrapPanel>
                     <WrapPanel Grid.Row="1" Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <TextBlock Style="{StaticResource NormalTextStyle}" FontSize="12"  Text="Name" HorizontalAlignment="Center" />
-                        <TextBox Width="250"></TextBox>
+                        <TextBox Name="CustomerNameTB" Width="250"></TextBox>
                     </WrapPanel>
                     <WrapPanel Grid.Row="2" Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <TextBlock Style="{StaticResource NormalTextStyle}" FontSize="12"  Text="SSN" HorizontalAlignment="Center" />
-                        <TextBox Width="250"></TextBox>
+                        <TextBox Name="CustomerPassTB" Width="250"></TextBox>
                     </WrapPanel>
                     <WrapPanel Grid.Row="3" HorizontalAlignment="Center" VerticalAlignment="Center">
-                        <Button Style="{StaticResource NormalButton}" Height="60" Width="145">
+                        <Button Click="CustomerLoginClick" Style="{StaticResource NormalButton}" Height="60" Width="145">
                             <TextBlock Style="{StaticResource NormalTextStyle}" Text="Login" Foreground="Black"/>
                         </Button>
                     </WrapPanel>
@@ -85,14 +85,14 @@
                     </WrapPanel>
                     <WrapPanel Grid.Row="1" Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <TextBlock Style="{StaticResource NormalTextStyle}" FontSize="12"  Text="Name" HorizontalAlignment="Center" />
-                        <TextBox Width="250"></TextBox>
+                        <TextBox Name="TeacherNameTB" Width="250"></TextBox>
                     </WrapPanel>
                     <WrapPanel Grid.Row="2" Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <TextBlock Style="{StaticResource NormalTextStyle}" FontSize="12"  Text="Work Place" HorizontalAlignment="Center" />
-                        <TextBox Width="250"></TextBox>
+                        <TextBox Name="TeacherWorkplaceTB" Width="250"></TextBox>
                     </WrapPanel>
                     <WrapPanel Grid.Row="3" HorizontalAlignment="Center" VerticalAlignment="Center">
-                        <Button Style="{StaticResource NormalButton}" Height="60" Width="145">
+                        <Button Click="TeacherLoginClick" Style="{StaticResource NormalButton}" Height="60" Width="145">
                             <TextBlock Style="{StaticResource NormalTextStyle}" Text="Login" Foreground="Black"/>
                         </Button>
                     </WrapPanel>
@@ -114,14 +114,14 @@
                     </WrapPanel>
                     <WrapPanel Grid.Row="1" Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <TextBlock Style="{StaticResource NormalTextStyle}" FontSize="12"  Text="Name" HorizontalAlignment="Center" />
-                        <TextBox Width="250"></TextBox>
+                        <TextBox Name="StudentNameTB" Width="250"></TextBox>
                     </WrapPanel>
                     <WrapPanel Grid.Row="2" Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <TextBlock Style="{StaticResource NormalTextStyle}" FontSize="12"  Text="Student Number" HorizontalAlignment="Center" />
-                        <TextBox Width="250"></TextBox>
+                        <TextBox Name="StudentNumberTB" Width="250"></TextBox>
                     </WrapPanel>
                     <WrapPanel Grid.Row="3" HorizontalAlignment="Center" VerticalAlignment="Center">
-                        <Button Style="{StaticResource NormalButton}" Height="60" Width="145">
+                        <Button Click="StudentLoginClick" Style="{StaticResource NormalButton}" Height="60" Width="145">
                             <TextBlock Style="{StaticResource NormalTextStyle}" Text="Login" Foreground="Black"/>
                         </Button>
                     </WrapPanel>

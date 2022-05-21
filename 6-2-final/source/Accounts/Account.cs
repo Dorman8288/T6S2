@@ -4,10 +4,10 @@ using System.Text;
 
 namespace tamrin_6_2_final
 {
-    class Account
+   public class Account
     {
         public string name { get; set; }
-        public List<Media> cart { get; set; } = new List<Media>();
+        public List<Media> cart = new List<Media>();
         public Account(string name)
         {
             this.name = name;
@@ -32,6 +32,14 @@ namespace tamrin_6_2_final
                 }
             }
             throw new Exception("not found");
+        }
+        public static bool operator ==(Account a, Account b)
+        {
+            return a.name == b.name;
+        }
+        public static bool operator !=(Account a, Account b)
+        {
+            return a != b;
         }
     }
 }

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace tamrin_6_2_final
 {
-    class Customer : Account
+    public class Customer : Account
     {
         string _SSN;
         public string SSN
@@ -20,6 +20,14 @@ namespace tamrin_6_2_final
         public Customer(string name, string SSN) : base(name)
         {
             this.SSN = SSN;
+        }
+        public static bool operator==(Customer a, Customer b)
+        {
+            return a.name == b.name && a.SSN == b.SSN;
+        }
+        public static bool operator !=(Customer a, Customer b)
+        {
+            return a != b;
         }
     }
 }

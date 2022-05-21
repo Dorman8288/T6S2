@@ -4,7 +4,7 @@ using System.Text;
 
 namespace tamrin_6_2_final
 {
-    class Magazines : Media
+    public class Magazines : Media
     {
         string publisher;
         int numberPages;
@@ -27,6 +27,10 @@ namespace tamrin_6_2_final
             Magazines b = obj as Magazines;
             if (b == null) throw new Exception("this object is not the currect type");
             return name == b.name && price == b.price && ID == b.ID && publisher == b.publisher && numberPages == b.numberPages;
+        }
+        public override string info()
+        {
+            return base.info() + $"Author: {numberPages}\nPublisher: {publisher}\n";
         }
         public static bool operator ==(Magazines a, Magazines b)
         {

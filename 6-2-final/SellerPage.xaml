@@ -21,7 +21,7 @@
                 <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
             <Button Style="{StaticResource NormalButton}" Content="Add" Margin="20,20,20,20" Click="AddButtonClick"/>
-            <Button Grid.Column="0" Grid.Row="1" Style="{StaticResource NormalButton}" Content="Search" Margin="20,20,20,20"/>
+            <Button Grid.Column="0" Grid.Row="1" Style="{StaticResource NormalButton}" Content="Search" Margin="20,20,20,20" Click="SearchButtonClick"/>
             <Button Grid.Column="0" Grid.Row="2" Style="{StaticResource NormalButton}" Content="Exit" Margin="20,20,20,20"/>
             <Button Grid.Column="1" Grid.Row="0" Style="{StaticResource NormalButton}" Content="Delete" Margin="20,20,20,20" Click="DeleteButtonClick"/>
             <Button Grid.Column="1" Grid.Row="1" Style="{StaticResource NormalButton}" Content="Show Customers" Margin="20,20,20,20" FontSize="12"/>
