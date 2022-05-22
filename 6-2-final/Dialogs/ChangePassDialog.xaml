@@ -1,0 +1,29 @@
+﻿<Window x:Class="tamrin_6_2_final.Dialogs.ChangePassDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:tamrin_6_2_final.Dialogs"
+        mc:Ignorable="d"
+        Title="ChangePassDialog" Height="100" Width="300">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="3*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+
+        </Grid.RowDefinitions>
+        <Label Grid.Row="0" Grid.Column="0" Content="Old Password" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <TextBox Name="OldPassTB" Grid.Row="0" Grid.Column="1" Width="200" Height="15" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <Label Grid.Row="1" Grid.Column="0" Content="New password" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <TextBox Name="NewPasswordTB" Grid.Row="1" Grid.Column="1" Width="200" Height="15" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <WrapPanel Grid.Row="5" Grid.Column="2" HorizontalAlignment="Right">
+            <Button IsDefault="True" Margin="0,0,10,0" Width="60" Height="20" Content="Change" Click="ChangePassClick"/>
+            <Button IsCancel="True" Width="60" Height="20" Content="Cancel" Margin="0,0,10,0" Click="CancelClick"/>
+        </WrapPanel>
+    </Grid>
+</Window>

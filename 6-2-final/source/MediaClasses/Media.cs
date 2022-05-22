@@ -32,7 +32,6 @@ namespace tamrin_6_2_final
             this.name = name;
             this.price = price;
             this.ID = ID;
-            DataManager.AddMedia(this);
         }
         public Media()
         {
@@ -52,7 +51,7 @@ namespace tamrin_6_2_final
         public override bool Equals(object obj)
         {
             Media b = obj as Media;
-            if (b == null) throw new Exception("this object is not the currect type");
+            if (b == null) return false;
             return  name == b.name && price == b.price && ID == b.ID;
         }
         public static bool operator ==(Media a, Media b)

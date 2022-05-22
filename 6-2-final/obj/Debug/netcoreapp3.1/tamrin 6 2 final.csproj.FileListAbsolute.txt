@@ -4,14 +4,22 @@ C:\Users\User\Source\Repos\T6S2\6-2-final\bin\Debug\netcoreapp3.1\tamrin 6 2 fin
 C:\Users\User\Source\Repos\T6S2\6-2-final\bin\Debug\netcoreapp3.1\tamrin 6 2 final.runtimeconfig.dev.json
 C:\Users\User\Source\Repos\T6S2\6-2-final\bin\Debug\netcoreapp3.1\tamrin 6 2 final.dll
 C:\Users\User\Source\Repos\T6S2\6-2-final\bin\Debug\netcoreapp3.1\tamrin 6 2 final.pdb
+C:\Users\User\Source\Repos\T6S2\6-2-final\obj\Debug\netcoreapp3.1\Dialogs\AddMedia.g.cs
+C:\Users\User\Source\Repos\T6S2\6-2-final\obj\Debug\netcoreapp3.1\Dialogs\DeleteMedia.g.cs
+C:\Users\User\Source\Repos\T6S2\6-2-final\obj\Debug\netcoreapp3.1\Dialogs\SearchMedia.g.cs
 C:\Users\User\Source\Repos\T6S2\6-2-final\obj\Debug\netcoreapp3.1\LoginPage.g.cs
 C:\Users\User\Source\Repos\T6S2\6-2-final\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\User\Source\Repos\T6S2\6-2-final\obj\Debug\netcoreapp3.1\SellerPage.g.cs
 C:\Users\User\Source\Repos\T6S2\6-2-final\obj\Debug\netcoreapp3.1\App.g.cs
 C:\Users\User\Source\Repos\T6S2\6-2-final\obj\Debug\netcoreapp3.1\tamrin 6 2 final_MarkupCompile.cache
 C:\Users\User\Source\Repos\T6S2\6-2-final\obj\Debug\netcoreapp3.1\tamrin 6 2 final_MarkupCompile.lref
 C:\Users\User\Source\Repos\T6S2\6-2-final\obj\Debug\netcoreapp3.1\App.baml
+C:\Users\User\Source\Repos\T6S2\6-2-final\obj\Debug\netcoreapp3.1\Dialogs\AddMedia.baml
+C:\Users\User\Source\Repos\T6S2\6-2-final\obj\Debug\netcoreapp3.1\Dialogs\DeleteMedia.baml
+C:\Users\User\Source\Repos\T6S2\6-2-final\obj\Debug\netcoreapp3.1\Dialogs\SearchMedia.baml
 C:\Users\User\Source\Repos\T6S2\6-2-final\obj\Debug\netcoreapp3.1\LoginPage.baml
 C:\Users\User\Source\Repos\T6S2\6-2-final\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Users\User\Source\Repos\T6S2\6-2-final\obj\Debug\netcoreapp3.1\SellerPage.baml
 C:\Users\User\Source\Repos\T6S2\6-2-final\obj\Debug\netcoreapp3.1\tamrin 6 2 final.g.resources
 C:\Users\User\Source\Repos\T6S2\6-2-final\obj\Debug\netcoreapp3.1\tamrin 6 2 final.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\User\Source\Repos\T6S2\6-2-final\obj\Debug\netcoreapp3.1\tamrin 6 2 final.AssemblyInfoInputs.cache
@@ -21,40 +29,11 @@ C:\Users\User\Source\Repos\T6S2\6-2-final\obj\Debug\netcoreapp3.1\tamrin 6 2 fin
 C:\Users\User\Source\Repos\T6S2\6-2-final\obj\Debug\netcoreapp3.1\tamrin 6 2 final.pdb
 C:\Users\User\Source\Repos\T6S2\6-2-final\obj\Debug\netcoreapp3.1\tamrin 6 2 final.genruntimeconfig.cache
 C:\Users\User\Source\Repos\T6S2\6-2-final\obj\Debug\netcoreapp3.1\tamrin 6 2 final.csproj.AssemblyReference.cache
-C:\Users\User\Source\Repos\T6S2\6-2-final\obj\Debug\netcoreapp3.1\SellerPage.g.cs
-C:\Users\User\Source\Repos\T6S2\6-2-final\obj\Debug\netcoreapp3.1\SellerPage.baml
-C:\Users\User\Source\Repos\T6S2\6-2-final\obj\Debug\netcoreapp3.1\Dialogs\AddMedia.g.cs
-C:\Users\User\Source\Repos\T6S2\6-2-final\obj\Debug\netcoreapp3.1\Dialogs\AddMedia.baml
-C:\Users\User\Source\Repos\T6S2\6-2-final\obj\Debug\netcoreapp3.1\Dialogs\DeleteMedia.g.cs
-C:\Users\User\Source\Repos\T6S2\6-2-final\obj\Debug\netcoreapp3.1\Dialogs\DeleteMedia.baml
-C:\Users\mdorp\Source\Repos\T6S2\6-2-final\bin\Debug\netcoreapp3.1\tamrin 6 2 final.exe
-C:\Users\mdorp\Source\Repos\T6S2\6-2-final\bin\Debug\netcoreapp3.1\tamrin 6 2 final.deps.json
-C:\Users\mdorp\Source\Repos\T6S2\6-2-final\bin\Debug\netcoreapp3.1\tamrin 6 2 final.runtimeconfig.json
-C:\Users\mdorp\Source\Repos\T6S2\6-2-final\bin\Debug\netcoreapp3.1\tamrin 6 2 final.runtimeconfig.dev.json
-C:\Users\mdorp\Source\Repos\T6S2\6-2-final\bin\Debug\netcoreapp3.1\tamrin 6 2 final.dll
-C:\Users\mdorp\Source\Repos\T6S2\6-2-final\bin\Debug\netcoreapp3.1\tamrin 6 2 final.pdb
-C:\Users\mdorp\Source\Repos\T6S2\6-2-final\obj\Debug\netcoreapp3.1\tamrin 6 2 final.csproj.AssemblyReference.cache
-C:\Users\mdorp\Source\Repos\T6S2\6-2-final\obj\Debug\netcoreapp3.1\Dialogs\AddMedia.g.cs
-C:\Users\mdorp\Source\Repos\T6S2\6-2-final\obj\Debug\netcoreapp3.1\Dialogs\DeleteMedia.g.cs
-C:\Users\mdorp\Source\Repos\T6S2\6-2-final\obj\Debug\netcoreapp3.1\LoginPage.g.cs
-C:\Users\mdorp\Source\Repos\T6S2\6-2-final\obj\Debug\netcoreapp3.1\MainWindow.g.cs
-C:\Users\mdorp\Source\Repos\T6S2\6-2-final\obj\Debug\netcoreapp3.1\SellerPage.g.cs
-C:\Users\mdorp\Source\Repos\T6S2\6-2-final\obj\Debug\netcoreapp3.1\App.g.cs
-C:\Users\mdorp\Source\Repos\T6S2\6-2-final\obj\Debug\netcoreapp3.1\tamrin 6 2 final_MarkupCompile.cache
-C:\Users\mdorp\Source\Repos\T6S2\6-2-final\obj\Debug\netcoreapp3.1\tamrin 6 2 final_MarkupCompile.lref
-C:\Users\mdorp\Source\Repos\T6S2\6-2-final\obj\Debug\netcoreapp3.1\App.baml
-C:\Users\mdorp\Source\Repos\T6S2\6-2-final\obj\Debug\netcoreapp3.1\Dialogs\AddMedia.baml
-C:\Users\mdorp\Source\Repos\T6S2\6-2-final\obj\Debug\netcoreapp3.1\Dialogs\DeleteMedia.baml
-C:\Users\mdorp\Source\Repos\T6S2\6-2-final\obj\Debug\netcoreapp3.1\LoginPage.baml
-C:\Users\mdorp\Source\Repos\T6S2\6-2-final\obj\Debug\netcoreapp3.1\MainWindow.baml
-C:\Users\mdorp\Source\Repos\T6S2\6-2-final\obj\Debug\netcoreapp3.1\SellerPage.baml
-C:\Users\mdorp\Source\Repos\T6S2\6-2-final\obj\Debug\netcoreapp3.1\tamrin 6 2 final.g.resources
-C:\Users\mdorp\Source\Repos\T6S2\6-2-final\obj\Debug\netcoreapp3.1\tamrin 6 2 final.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\mdorp\Source\Repos\T6S2\6-2-final\obj\Debug\netcoreapp3.1\tamrin 6 2 final.AssemblyInfoInputs.cache
-C:\Users\mdorp\Source\Repos\T6S2\6-2-final\obj\Debug\netcoreapp3.1\tamrin 6 2 final.AssemblyInfo.cs
-C:\Users\mdorp\Source\Repos\T6S2\6-2-final\obj\Debug\netcoreapp3.1\tamrin 6 2 final.csproj.CoreCompileInputs.cache
-C:\Users\mdorp\Source\Repos\T6S2\6-2-final\obj\Debug\netcoreapp3.1\tamrin 6 2 final.dll
-C:\Users\mdorp\Source\Repos\T6S2\6-2-final\obj\Debug\netcoreapp3.1\tamrin 6 2 final.pdb
-C:\Users\mdorp\Source\Repos\T6S2\6-2-final\obj\Debug\netcoreapp3.1\tamrin 6 2 final.genruntimeconfig.cache
-C:\Users\mdorp\Source\Repos\T6S2\6-2-final\obj\Debug\netcoreapp3.1\Dialogs\SearchMedia.g.cs
-C:\Users\mdorp\Source\Repos\T6S2\6-2-final\obj\Debug\netcoreapp3.1\Dialogs\SearchMedia.baml
+C:\Users\User\Source\Repos\T6S2\6-2-final\obj\Debug\netcoreapp3.1\Dialogs\ChangePassDialog.g.cs
+C:\Users\User\Source\Repos\T6S2\6-2-final\obj\Debug\netcoreapp3.1\Dialogs\ChangePassDialog.baml
+C:\Users\User\Source\Repos\T6S2\6-2-final\obj\Debug\netcoreapp3.1\buyerPage.g.cs
+C:\Users\User\Source\Repos\T6S2\6-2-final\obj\Debug\netcoreapp3.1\buyerPage.baml
+C:\Users\User\Source\Repos\T6S2\6-2-final\obj\Debug\netcoreapp3.1\Dialogs\SelectMediaDialog.g.cs
+C:\Users\User\Source\Repos\T6S2\6-2-final\obj\Debug\netcoreapp3.1\Dialogs\SelectMediaDialog.baml
+C:\Users\User\Source\Repos\T6S2\6-2-final\obj\Debug\netcoreapp3.1\Dialogs\EditDialog.g.cs
+C:\Users\User\Source\Repos\T6S2\6-2-final\obj\Debug\netcoreapp3.1\Dialogs\EditDialog.baml

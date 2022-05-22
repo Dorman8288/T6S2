@@ -26,6 +26,10 @@ namespace tamrin_6_2_final
         {
             currentUser = user;
         }
+        public static Account getCurrentUser()
+        {
+            return currentUser;
+        }
         public MainWindow()
         {
             InitializeComponent();

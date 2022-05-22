@@ -7,13 +7,25 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="buyerPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Dialogs\AddMedia.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Dialogs\ChangePassDialog.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Dialogs\DeleteMedia.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Dialogs\EditDialog.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Dialogs\SearchMedia.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Dialogs\SelectMediaDialog.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="LoginPage.xaml.cs">
@@ -24,13 +36,25 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Page Update="buyerPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Dialogs\AddMedia.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Dialogs\ChangePassDialog.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Dialogs\DeleteMedia.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="Dialogs\EditDialog.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Dialogs\SearchMedia.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Dialogs\SelectMediaDialog.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="LoginPage.xaml">

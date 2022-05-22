@@ -25,7 +25,7 @@ namespace tamrin_6_2_final
         public override bool Equals(object obj)
         {
             Magazines b = obj as Magazines;
-            if (b == null) throw new Exception("this object is not the currect type");
+            if (b == null) return false;
             return name == b.name && price == b.price && ID == b.ID && publisher == b.publisher && numberPages == b.numberPages;
         }
         public override string info()

@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\mdorp\Source\Repos\T6S2\6-2-final\obj\Debug\netcoreapp3.1\
+C:\Users\User\Source\Repos\T6S2\6-2-final\obj\Debug\netcoreapp3.1\
 tamrin_6_2_final
 none
 false
 TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1;
-C:\Users\mdorp\Source\Repos\T6S2\6-2-final\App.xaml
-6228338285
+C:\Users\User\Source\Repos\T6S2\6-2-final\App.xaml
+101453989435
 
-20-1124815799
+241979323454
 192-1533232326
-Dialogs\AddMedia.xaml;Dialogs\DeleteMedia.xaml;Dialogs\SearchMedia.xaml;LoginPage.xaml;MainWindow.xaml;SellerPage.xaml;
+buyerPage.xaml;Dialogs\AddMedia.xaml;Dialogs\ChangePassDialog.xaml;Dialogs\DeleteMedia.xaml;Dialogs\EditDialog.xaml;Dialogs\SearchMedia.xaml;Dialogs\SelectMediaDialog.xaml;LoginPage.xaml;MainWindow.xaml;SellerPage.xaml;
 
 False
 

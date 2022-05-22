@@ -46,5 +46,16 @@ namespace tamrin_6_2_final
             MainWindow.setCurrentUser(null);
             NavigationService.Navigate(new Uri("LoginPage.xaml", UriKind.Relative));
         }
+
+        private void ChangePasswordClick(object sender, RoutedEventArgs e)
+        {
+            Dialogs.ChangePassDialog inputDialog = new Dialogs.ChangePassDialog();
+            inputDialog.Show();
+        }
+
+        private void ShowCustomersClick(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show(DataManager.getCustomers(), "state", MessageBoxButton.OK, MessageBoxImage.Information);
+        }
     }
 }

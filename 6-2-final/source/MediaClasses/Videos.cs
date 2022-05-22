@@ -24,7 +24,7 @@ namespace tamrin_6_2_final
         public override bool Equals(object obj)
         {
             Videos b = obj as Videos;
-            if (b == null) throw new Exception("this object is not the currect type");
+            if (b == null) return false;
             return name == b.name && price == b.price && ID == b.ID && time == b.time && numberOfCDs == b.numberOfCDs;
         }
         public override string info()

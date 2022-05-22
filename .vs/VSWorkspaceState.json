@@ -3,8 +3,9 @@
     "",
     "\\6-2-final",
     "\\6-2-final\\source",
+    "\\6-2-final\\source\\DataManagement",
     "\\6-2-final\\source\\MediaClasses"
   ],
-  "SelectedNode": "\\6-2-final\\tamrin 6 2 final.csproj",
+  "SelectedNode": "\\6-2-final\\source\\DataManagement\\DataManager.cs",
   "PreviewInSolutionExplorer": false
 }

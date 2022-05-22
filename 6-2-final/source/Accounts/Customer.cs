@@ -29,5 +29,9 @@ namespace tamrin_6_2_final
         {
             return a != b;
         }
+        public override string info()
+        {
+            return base.info() + $"SSN {SSN}\n";
+        }
     }
 }

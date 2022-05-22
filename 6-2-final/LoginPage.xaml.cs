@@ -40,8 +40,8 @@ namespace tamrin_6_2_final
         {
             try
             {
-                MainWindow.setCurrentUser(DataManager.login(SellerNameTB.Text, SellerPassTB.Text, LoginType.Customer));
-                NavigationService.Navigate(new Uri("SellerPage.xaml", UriKind.Relative));
+                MainWindow.setCurrentUser(DataManager.login(CustomerNameTB.Text, CustomerPassTB.Text, LoginType.Customer));
+                NavigationService.Navigate(new Uri("buyerPage.xaml", UriKind.Relative));
             }
             catch (Exception error)
             {
@@ -53,8 +53,8 @@ namespace tamrin_6_2_final
         {
             try
             {
-                MainWindow.setCurrentUser(DataManager.login(SellerNameTB.Text, SellerPassTB.Text, LoginType.Teacher));
-                NavigationService.Navigate(new Uri("SellerPage.xaml", UriKind.Relative));
+                MainWindow.setCurrentUser(DataManager.login(TeacherNameTB.Text, TeacherWorkplaceTB.Text, LoginType.Teacher));
+                NavigationService.Navigate(new Uri("buyerPage.xaml", UriKind.Relative));
             }
             catch (Exception error)
             {
@@ -66,8 +66,8 @@ namespace tamrin_6_2_final
         {
             try
             {
-                MainWindow.setCurrentUser(DataManager.login(SellerNameTB.Text, SellerPassTB.Text, LoginType.Student));
-                NavigationService.Navigate(new Uri("SellerPage.xaml", UriKind.Relative));
+                MainWindow.setCurrentUser(DataManager.login(StudentNameTB.Text, StudentNumberTB.Text, LoginType.Student));
+                NavigationService.Navigate(new Uri("buyerPage.xaml", UriKind.Relative));
             }
             catch (Exception error)
             {

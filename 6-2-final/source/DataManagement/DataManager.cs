@@ -99,6 +99,10 @@ namespace tamrin_6_2_final
             }
             throw new Exception("not found");
         }
+        public static Media FindMedia(string name)
+        {
+            return medias.Find(x => x.name == name);
+        }
         public static bool isRegisteredID(string ID)
         {
             foreach(var media in medias)
@@ -127,9 +131,13 @@ namespace tamrin_6_2_final
                         }
                         catch(Exception e)
                         {
-                            MessageBox.Show(e.Message);
-                            Seller newSeller = new Seller(name, password);
-                            AddAccount(newSeller);
+                            if (e.Message == "this account is not registered")
+                            {
+                                Seller newSeller = new Seller(name, password);
+                                AddAccount(newSeller);
+                                return newSeller;
+                            }
+                            else throw e;
                         }
                         break;
                     }
@@ -139,11 +147,15 @@ namespace tamrin_6_2_final
                         {
                             return findaccount(new Customer(name, password));
                         }
-                        catch
+                        catch (Exception e)
                         {
-                            MessageBox.Show("YES");
-                            Customer newSeller = new Customer(name, password);
-                            AddAccount(newSeller);
+                            if (e.Message == "this account is not registered")
+                            {
+                                Customer newCustomer = new Customer(name, password);
+                                AddAccount(newCustomer);
+                                return newCustomer;
+                            }
+                            else throw e;
                         }
                         break;
                     }
@@ -153,10 +165,15 @@ namespace tamrin_6_2_final
                         {
                             return findaccount(new Teacher(name, password));
                         }
-                        catch
+                        catch (Exception e)
                         {
-                            Teacher newSeller = new Teacher(name, password);
-                            AddAccount(newSeller);
+                            if (e.Message == "this account is not registered")
+                            {
+                                Teacher newTeacher = new Teacher(name, password);
+                                AddAccount(newTeacher);
+                                return newTeacher;
+                            }
+                            else throw e;
                         }
                         break;
                     }
@@ -166,10 +183,15 @@ namespace tamrin_6_2_final
                         {
                             return findaccount(new Student(name, password));
                         }
-                        catch
+                        catch (Exception e)
                         {
-                            Student newSeller = new Student(name, password);
-                            AddAccount(newSeller);
+                            if (e.Message == "this account is not registered")
+                            {
+                                Student newStudent = new Student(name, password);
+                                AddAccount(newStudent);
+                                return newStudent;
+                            }
+                            else throw e;
                         }
                         break;
                     }
@@ -182,11 +204,30 @@ namespace tamrin_6_2_final
             {
                 if(Account == input)
                 {
-                    MessageBox.Show(accounts.Count.ToString());
                     return Account;
                 }
             }
             throw new Exception("this account is not registered");
+        }
+        public static string getCustomers()
+        {
+            string ans = "";
+            foreach(var account in accounts)
+            {
+                if(!(account is Seller))
+                {
+                    ans += account.info() + "********\n";
+                }
+            }
+            if (ans == "") return "no customers";
+            return ans;
+        }
+        public static List<string> getMediasName()
+        {
+            List<string> ans = new List<string>();
+            foreach (var media in medias)
+                ans.Add($"{media.name} {media.price}$");
+            return ans;
         }
     }
 }

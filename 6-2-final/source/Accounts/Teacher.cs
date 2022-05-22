@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Windows;
 
 namespace tamrin_6_2_final
 {
@@ -19,6 +20,9 @@ namespace tamrin_6_2_final
         {
             return a != b;
         }
-    }
-
+        public override string info()
+        {
+            return base.info() + $"workplace {workPlace}\n";
+        }
+    } 
 }
