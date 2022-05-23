@@ -7,6 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="600" Width="410"
         Background="Gray"
-        ResizeMode="NoResize">
+        ResizeMode="NoResize"
+        Closing="Exit">
     <Frame Source="LoginPage.xaml" NavigationUIVisibility="Hidden"/>
 </Window>

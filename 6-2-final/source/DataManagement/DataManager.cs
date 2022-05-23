@@ -226,7 +226,7 @@ namespace tamrin_6_2_final
         {
             List<string> ans = new List<string>();
             foreach (var media in medias)
-                ans.Add($"{media.name} {media.price}$");
+                ans.Add($"{media.name} price:{media.price}$");
             return ans;
         }
     }

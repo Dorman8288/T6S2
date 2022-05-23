@@ -21,10 +21,10 @@
                 <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
             <Button Style="{StaticResource NormalButton}" Content="Select" Margin="20,20,20,20" Click="SelectButtonClick"/>
-            <Button Grid.Column="0" Grid.Row="1" Style="{StaticResource NormalButton}" Content="Select" Margin="20,20,20,20" Click="BuyClick"/>
+            <Button Grid.Column="0" Grid.Row="1" Style="{StaticResource NormalButton}" Content="Buy" Margin="20,20,20,20" Click="BuyClick"/>
             <Button Grid.ColumnSpan="2" Grid.Column="0" Grid.Row="2" Style="{StaticResource NormalButton}" Content="Exit" Margin="20,20,20,20" Click="ExitButtonClick"/>
             <Button Grid.Column="1" Grid.Row="0" Style="{StaticResource NormalButton}" Content="Edit" Margin="20,20,20,20" Click="EditClick"/>
-            <Button Grid.Column="1" Grid.Row="1" Style="{StaticResource NormalButton}" Content="Show Customers" Margin="20,20,20,20" FontSize="12" Click="Button_Click_2"/>
+            <Button Grid.Column="1" Grid.Row="1" Style="{StaticResource NormalButton}" Content="Chance" Margin="20,20,20,20" FontSize="30" Click="ChanceClick"/>
         </Grid>
     </Border>
 </Page>

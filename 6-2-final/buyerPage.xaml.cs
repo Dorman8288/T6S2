@@ -10,6 +10,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Linq;
 
 namespace tamrin_6_2_final
 {
@@ -44,9 +45,9 @@ namespace tamrin_6_2_final
             MessageBox.Show($"you should pay {MainWindow.getCurrentUser().CheckOut().ToString()}$", "state", MessageBoxButton.OKCancel, MessageBoxImage.Information);
         }
 
-        private void Button_Click_2(object sender, RoutedEventArgs e)
+        private void ChanceClick(object sender, RoutedEventArgs e)
         {
-
+            MessageBox.Show($"you got {MainWindow.getCurrentUser().generateChance()}% off", "chance", MessageBoxButton.OK, MessageBoxImage.Information);
         }
     }
 }

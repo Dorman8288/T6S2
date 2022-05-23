@@ -72,5 +72,12 @@ namespace tamrin_6_2_final
             if (this is Customer && cart.Count > 5) discount = 5;
             return total * (1 + ((discount + additionalDiscount) / 100));
         }
+        public int generateChance()
+        {
+            int[] temp = { 0, 2, 3, 5, 7, 10, 15, 25, 30 };
+            Random generator = new Random();
+            additionalDiscount = temp[generator.Next(0, 8)];
+            return additionalDiscount;
+        }
     }
 }

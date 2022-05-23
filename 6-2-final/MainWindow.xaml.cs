@@ -33,6 +33,13 @@ namespace tamrin_6_2_final
         public MainWindow()
         {
             InitializeComponent();
+            DataManager.LoadAll();
+            List<int> a = new List<int>();
+            a.Distinct()
+        }
+        private void Exit(object sender, System.ComponentModel.CancelEventArgs e)
+        {
+            DataManager.SaveAll();
         }
     }
 }
