@@ -53,7 +53,7 @@ namespace tamrin_6_2_final {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/tamrin 6 2 final;component/sellerpage.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/tamrin 6 2 final_b0yjtdir_wpftmp;component/sellerpage.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\SellerPage.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

@@ -21,6 +21,10 @@ namespace tamrin_6_2_final
         {
             this.studentNumber = studentNumber;
         }
+        public Student() : base()
+        {
+            studentNumber = "99999999";
+        }
         bool isInStudentNumberFormat(string input)
         {
             return Regex.IsMatch(input, @"^9.{7}$");

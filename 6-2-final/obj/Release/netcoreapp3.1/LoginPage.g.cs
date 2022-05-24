@@ -117,7 +117,7 @@ namespace tamrin_6_2_final {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/tamrin 6 2 final;component/loginpage.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/tamrin 6 2 final_b0yjtdir_wpftmp;component/loginpage.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\LoginPage.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

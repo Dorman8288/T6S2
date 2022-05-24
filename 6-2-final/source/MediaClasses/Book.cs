@@ -13,6 +13,11 @@ namespace tamrin_6_2_final
             this.author = author;
             this.publisher = publisher;
         }
+        public Book() : base()
+        {
+            author = "";
+            publisher = "";
+        }
         public override double calculatePrice()
         {
             return 1.1 * base.calculatePrice();

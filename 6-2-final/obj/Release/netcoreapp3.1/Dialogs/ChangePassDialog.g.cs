@@ -69,7 +69,7 @@ namespace tamrin_6_2_final.Dialogs {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/tamrin 6 2 final;component/dialogs/changepassdialog.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/tamrin 6 2 final_b0yjtdir_wpftmp;component/dialogs/changepassdialog.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Dialogs\ChangePassDialog.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

@@ -15,6 +15,11 @@ namespace tamrin_6_2_final
             this.time = time;
             this.numberOfCDs = numberOfCDs;
         }
+        public Videos() : base()
+        {
+            time = 0;
+            numberOfCDs = 0;
+        }
         public override double calculatePrice()
         {
             double basePrice = base.calculatePrice();

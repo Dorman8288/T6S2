@@ -21,6 +21,10 @@ namespace tamrin_6_2_final
         {
             this.SSN = SSN;
         }
+        public Customer() : base()
+        {
+           
+        }
         public static bool operator==(Customer a, Customer b)
         {
             return a.name == b.name && a.SSN == b.SSN;

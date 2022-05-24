@@ -6,7 +6,7 @@ namespace tamrin_6_2_final
 {
     public class Media
     {
-        public string name;
+        public string name { get; set; }
         double _price;
         string _ID;
         public double price
@@ -38,7 +38,6 @@ namespace tamrin_6_2_final
             name = "";
             price = 0;
             ID = "null";
-            DataManager.AddMedia(this);
         }
         public virtual string info()
         {

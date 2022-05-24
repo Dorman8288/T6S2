@@ -1,20 +1,20 @@
-﻿tamrin 6 2 final
+﻿tamrin 6 2 final_b0yjtdir_wpftmp
 
 
 winexe
 C#
 .cs
-C:\Users\User\Source\Repos\T6S2\6-2-final\obj\Debug\netcoreapp3.1\
+C:\Users\User\Source\Repos\T6S2\6-2-final\obj\Release\netcoreapp3.1\
 tamrin_6_2_final
 none
 false
-TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1;
+TRACE;RELEASE;NETCOREAPP;NETCOREAPP3_1;
 C:\Users\User\Source\Repos\T6S2\6-2-final\App.xaml
 101453989435
 
-241979323454
-192-1533232326
+351035432930
+3841228502644
 buyerPage.xaml;Dialogs\AddMedia.xaml;Dialogs\ChangePassDialog.xaml;Dialogs\DeleteMedia.xaml;Dialogs\EditDialog.xaml;Dialogs\SearchMedia.xaml;Dialogs\SelectMediaDialog.xaml;LoginPage.xaml;MainWindow.xaml;SellerPage.xaml;
 
-False
+True
 

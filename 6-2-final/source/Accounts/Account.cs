@@ -36,7 +36,14 @@ namespace tamrin_6_2_final
         }
         public static bool operator ==(Account a, Account b)
         {
-            return a.name == b.name;
+            try
+            {
+                return a.name == b.name;
+            }catch(NullReferenceException)
+            {
+                if (a is null && b is null) return true;
+                else return false;
+            }      
         }
         public static bool operator !=(Account a, Account b)
         {

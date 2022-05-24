@@ -12,6 +12,10 @@ namespace tamrin_6_2_final
         {
             this.workPlace = workPlace;
         }
+        public Teacher() : base()
+        {
+            workPlace = "";
+        }
         public static bool operator ==(Teacher a, Teacher b)
         {
             return a.name == b.name && a.workPlace == b.workPlace;

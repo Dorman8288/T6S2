@@ -15,6 +15,10 @@ namespace tamrin_6_2_final
             if (!isInEmailFormat(name)) throw new Exception("this username is not an email");
             this.password = password;
         }
+        public Seller() : base()
+        {
+            password = "MyShop1234$";
+        }
         bool isInEmailFormat(string input)
         {
             return Regex.IsMatch(input, @"^.+@.+\..+$");

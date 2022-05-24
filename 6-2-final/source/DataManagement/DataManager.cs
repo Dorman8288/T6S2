@@ -35,7 +35,7 @@ namespace tamrin_6_2_final
         public static void Save(string path, object input)
         {
             StreamWriter writer = new StreamWriter(path, true);
-            writer.WriteLine(JsonSerializer.Serialize(input));
+            writer.WriteLine($"{input.GetType().FullName} {JsonSerializer.Serialize(input)}");
             writer.Close();
         }
         public static void AddAccount(Account account)
@@ -57,8 +57,25 @@ namespace tamrin_6_2_final
             StreamReader reader = new StreamReader("Accounts.json");
             while (!reader.EndOfStream)
             {
-                string json = reader.ReadLine();
-                Account account = JsonSerializer.Deserialize<Account>(json);
+                Account account = null;
+                string[] data = reader.ReadLine().Split(' ');
+                if(data[0] == typeof(Seller).FullName)
+                {
+                    account = JsonSerializer.Deserialize<Seller>(data[1]);
+                }
+                if (data[0] == typeof(Student).FullName)
+                {
+                    account = JsonSerializer.Deserialize<Student>(data[1]);
+                }
+                if (data[0] == typeof(Teacher).FullName)
+                {
+                    account = JsonSerializer.Deserialize<Teacher>(data[1]);
+                }
+                if (data[0] == typeof(Customer).FullName)
+                {
+                    account = JsonSerializer.Deserialize<Customer>(data[1]);
+                }
+                if (account == null) throw new Exception("data Currupted");
                 AddAccount(account);
             }
             reader.Close();
@@ -69,8 +86,21 @@ namespace tamrin_6_2_final
             StreamReader reader = new StreamReader("Media.json");
             while (!reader.EndOfStream)
             {
-                string json = reader.ReadLine();
-                Media media = JsonSerializer.Deserialize<Media>(json);
+                Media media = null;
+                string[] data = reader.ReadLine().Split(' ');
+                if (data[0] == typeof(Magazines).FullName)
+                {
+                    media = JsonSerializer.Deserialize<Magazines>(data[1]);
+                }
+                if (data[0] == typeof(Videos).FullName)
+                {
+                    media = JsonSerializer.Deserialize<Videos>(data[1]);
+                }
+                if (data[0] == typeof(Book).FullName)
+                {
+                    media = JsonSerializer.Deserialize<Book>(data[1]);
+                }
+                if (media == null) throw new Exception("data Currupted");
                 AddMedia(media);
             }
             reader.Close();

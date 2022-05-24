@@ -14,6 +14,11 @@ namespace tamrin_6_2_final
             this.numberPages = numberPages;
             this.publisher = publisher;
         }
+        public Magazines()
+        {
+            publisher = "";
+            numberPages = 0;
+        }
         public override double calculatePrice()
         {
             double basePrice = base.calculatePrice();
@@ -25,7 +30,7 @@ namespace tamrin_6_2_final
         public override bool Equals(object obj)
         {
             Magazines b = obj as Magazines;
-            if (b == null) return false;
+            if (b is null) return false;
             return name == b.name && price == b.price && ID == b.ID && publisher == b.publisher && numberPages == b.numberPages;
         }
         public override string info()
