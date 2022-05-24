@@ -1,7 +1,7 @@
-tamrin_6_2_final.Seller {"password":"Amdor8288","name":"a@b.c"}
-tamrin_6_2_final.Teacher {"name":"sadasdas"}
-tamrin_6_2_final.Teacher {"name":"adssda"}
-tamrin_6_2_final.Teacher {"name":"asda"}
-tamrin_6_2_final.Teacher {"name":"nhgbghng"}
-tamrin_6_2_final.Teacher {"name":"dsfsd"}
-tamrin_6_2_final.Teacher {"name":"sfafasdfafa"}
+tamrin_6_2_final.Seller {"password":"MyShop1234$","name":"a@b.c","cart":[]}
+tamrin_6_2_final.Student {"studentNumber":"99999999","name":"sadasd","cart":[]}
+tamrin_6_2_final.Teacher {"workPlace":"","name":"sada","cart":[]}
+tamrin_6_2_final.Student {"studentNumber":"99999999","name":"asdasd","cart":[]}
+tamrin_6_2_final.Teacher {"workPlace":"","name":"asdas","cart":[]}
+tamrin_6_2_final.Teacher {"workPlace":"asdasd","name":"asdads","cart":[{"name":"dasd","price":123,"ID":"1231"}]}
+tamrin_6_2_final.Teacher {"workPlace":"asd","name":"asd","cart":[{"name":"dasd","price":123,"ID":"1231"}]}

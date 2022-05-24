@@ -7,7 +7,7 @@ namespace tamrin_6_2_final
 {
     public class Teacher : Account
     {
-        public string workPlace;
+        public string workPlace { get; set; }
         public Teacher(string name, string workPlace) : base(name)
         {
             this.workPlace = workPlace;

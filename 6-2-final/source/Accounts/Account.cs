@@ -8,7 +8,7 @@ namespace tamrin_6_2_final
     {
         public int additionalDiscount = 0;
         public string name { get; set; }
-        public List<Media> cart = new List<Media>();
+        public List<Media> cart { get; set; } = new List<Media>();
         public Account(string name)
         {
             this.name = name;

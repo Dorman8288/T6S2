@@ -24,7 +24,13 @@ namespace tamrin_6_2_final.Dialogs
 
         private void SearchClick(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show(DataManager.SearchMedia(IDTB.Text));
+            try
+            {
+                MessageBox.Show(DataManager.SearchMedia(IDTB.Text));
+            }catch(Exception error)
+            {
+                MessageBox.Show(error.Message, "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+            }        
         }
         private void CancelClick(object sender, RoutedEventArgs e)
         {
